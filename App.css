@@ -1,0 +1,59 @@
+
+/* html{
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Inter,Spoqa Han Sans Neo,SF Pro Text,-apple-system,BlinkMacSystemFont,Helvetica Neue,Arial,sans-serif;
+  } */
+  
+  html, body{
+    color: #aec3b0;
+    background-color: #01161e;
+    height: 100%;
+  }
+
+  body{
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  #root {
+    margin-left: 35vw;
+  }
+  
+  .personalStatement{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .header{
+    padding-bottom: 5vh;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 40px;
+  }
+  
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  
+  ul {
+    padding-left: 1.2em;
+  }
+  
+  li a, li, a{
+    color: inherit;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  
+  li:last-child{
+    margin-bottom: 2rem;
+  }
+  
+  img, video{
+    height: 25rem;
+  }
